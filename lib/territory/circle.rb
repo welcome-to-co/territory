@@ -12,7 +12,7 @@ module Territory
 
      coordinates.push(coordinates[0])
 
-     polygon([coordinates], properties)
+     polygon([coordinates], properties: options[:properties])
    end
 
 end
