@@ -7,6 +7,7 @@ require 'territory/area'
 require 'territory/circle'
 require 'territory/destination'
 require 'territory/centroid'
+require "turf/invariant"
 require 'territory/sphericalmercator'
 require_relative "territory/version"
 
