@@ -16,7 +16,7 @@ module Territory
     lng = radians_to_degrees(longitude2)
     lat = radians_to_degrees(latitude2)
 
-    point([lng, lat], properties: properties)
+    point([lng, lat], properties: options[:properties])
   end
   
 end
