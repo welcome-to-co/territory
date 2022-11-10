@@ -4,6 +4,8 @@
 require 'territory/helpers'
 require 'territory/meta'
 require 'territory/area'
+require 'territory/circle'
+require 'territory/destination'
 require 'territory/centroid'
 require 'territory/sphericalmercator'
 require_relative "territory/version"
