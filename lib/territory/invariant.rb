@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Turf
+module Territory
   def self.get_coord(coord)
     if !coord
       raise Error, "coord is required"
